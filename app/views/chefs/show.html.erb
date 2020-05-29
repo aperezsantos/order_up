@@ -1,3 +1,5 @@
 <h1>Chef <%= @chef.name %></h1>
 
 <%= link_to "My Ingredients", "/ingredients" %>
+
+<p>Most Popular Ingredients: <%= @chef.dishes.popular_ingredients %></p>
